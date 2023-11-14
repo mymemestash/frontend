@@ -43,7 +43,7 @@ function Login() {
             <div className="sm:flex hidden  justify-center items-center font-medium">
               Or
             </div>
-            <form className="px-4 sm:px-6 xl:px-20 w-[100%]">
+            <form className="px-4 sm:px-6 2xl:px-20 xl:px-10 w-[100%]">
               <div className="mb-4">
                 <label className="mb-3 text-sm font-medium text-[#ffffff]">
                   Full Name
