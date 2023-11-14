@@ -43,13 +43,13 @@ function Login() {
             <div className="sm:flex hidden  justify-center items-center font-medium">
               Or
             </div>
-            <form className="px-4 sm:px-6 xl:px-14 w-[100%]">
+            <form className="px-4 sm:px-6 xl:px-20 w-[100%]">
               <div className="mb-4">
                 <label className="mb-3 text-sm font-medium text-[#ffffff]">
                   Email Address
                 </label>
                 <input
-                  className=" h-[42px] pl-2 outline-none w-[100%] text-[#FFF]  bg-[#ffffffab] rounded-lg"
+                  className=" md:h-[48px] h-[42px] pl-2 outline-none w-[100%] text-[#FFF]  bg-[#ffffffab] rounded-lg"
                   type="text"
                 />
               </div>
@@ -60,7 +60,7 @@ function Login() {
                   type={values.showPass ? "text" : "password"}
                   label="Password"
                   required
-                  className="] h-[42px] pl-2 outline-none w-[100%] text-[#FFF] placeholder:text-[#FFF] placeholder:text-sm bg-[#ffffffab] rounded-lg"
+                  className="md:h-[48px] h-[42px] pl-2 outline-none w-[100%] text-[#FFF] placeholder:text-[#FFF] placeholder:text-sm bg-[#ffffffab] rounded-lg"
                 />
                 <IconContext.Provider value={{ color: "#6DB1C0" }}>
                   <span className="absolute right-[8px] top-[36px] text-white cursor-pointer">
@@ -83,7 +83,7 @@ function Login() {
                 <Button
                   variant="primary"
                   paddingLess="true"
-                  className="w-[100%] h-[42px] text-[#141414] text-base"
+                  className="w-[100%] md:h-[48px] h-[42px] text-[#141414] text-base"
                 >
                   Login
                 </Button>
