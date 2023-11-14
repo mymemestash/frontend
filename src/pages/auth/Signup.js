@@ -92,8 +92,8 @@ function Login() {
                 <input type="checkbox" className="mt-[5px]" />
                 <h5 className="text-white">
                   By creating an account you agree to the
-                  <a className="text-[#ffffff]">terms of use</a> and our
-                  <a className="text-[#ffffff]"> privacy policy.</a>
+                  <a href="/" className="text-[#ffffff]">terms of use</a> and our
+                  <a href="/" className="text-[#ffffff]"> privacy policy.</a>
                 </h5>
               </div>
               <div className="sm:my-6 my-4 ">
